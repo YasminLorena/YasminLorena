@@ -6,11 +6,11 @@
     align-items: padding 24px 0;
 }
 .cabeçalho-imagem{
-    width: 10%
+    width: 2%
 }
 .cabeçalho-lista-item{
     display: inline-block;
-    margin: 0 16px
-    font-size: 24px
+    font-size: 24px;
+    margin: 0 16px;
  }
     
