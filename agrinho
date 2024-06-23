@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho: do campo à cidade</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 0.5em;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 1em;
+        }
+        .content {
+            padding: 1em;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agrinho: do campo à cidade</h1>
+        <p>Colhendo oportunidades</p>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#programas">Programas</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="sobre" class="content">
+            <h2>Sobre o Agrinho</h2>
+            <p>O Agrinho é um programa que...</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper tincidunt felis, non tristique dolor fermentum sit amet. Phasellus condimentum a nunc at tincidunt.</p>
+        </section>
+        <section id="programas" class="content">
+            <h2>Programas</h2>
+            <p>Conheça nossos programas...</p>
+            <ul>
+                <li>Programa A</li>
+                <li>Programa B</li>
+                <li>Programa C</li>
+            </ul>
+        </section>
+        <section id="eventos" class="content">
+            <h2>Eventos</h2>
+            <p>Participe dos nossos eventos...</p>
+            <div class="event">
+                <h3>Evento 1</h3>
+                <p>Data: 10 de julho de 2024</p>
+                <p>Local: Local do evento</p>
+            </div>
+            <div class="event">
+                <h3>Evento 2</h3>
+                <p>Data: 15 de agosto de 2024</p>
+                <p>Local: Outro local do evento</p>
+            </div>
+        </section>
+        <section id="contato" class="content">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco...</p>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Agrinho. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
