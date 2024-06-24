@@ -14,7 +14,7 @@
             background-color: #f0f0f0;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #077a0b;
             color: white;
             text-align: center;
             padding: 1em 0;
@@ -73,34 +73,34 @@
         <section id="sobre" class="content">
             <h2>Sobre o Agrinho</h2>
             <p>O Agrinho é um programa que...</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper tincidunt felis, non tristique dolor fermentum sit amet. Phasellus condimentum a nunc at tincidunt.</p>
+            <p>Agrinho é o maior programa de responsabilidade social do Sistema FAEP, resultado da parceria entre o SENAR-PR, FAEP, o governo do Estado do Paraná, mediante as Secretarias de Estado da Educação e do Esporte, da Agricultura e do Abastecimento, da Justiça, Família e Trabalho e do Desenvolvimento Sustentável e do Turismo, bem como com a colaboração das Prefeituras municipais e diversas empresas e instituições públicas e privadas.</p>
         </section>
         <section id="programas" class="content">
             <h2>Programas</h2>
             <p>Conheça nossos programas...</p>
             <ul>
-                <li>Programa A</li>
-                <li>Programa B</li>
-                <li>Programa C</li>
+                <li>Programa sustentabilidade</li>
+                <li>Programa Desenvolvimento</li>
+                <li>Programa Turismo</li>
             </ul>
         </section>
         <section id="eventos" class="content">
             <h2>Eventos</h2>
-            <p>Participe dos nossos eventos...</p>
+            <p>Participe dos nossos eventos de sustentabilidade e ...</p>
             <div class="event">
                 <h3>Evento 1</h3>
                 <p>Data: 10 de julho de 2024</p>
-                <p>Local: Local do evento</p>
+                <p>Local: *************</p>
             </div>
             <div class="event">
                 <h3>Evento 2</h3>
                 <p>Data: 15 de agosto de 2024</p>
-                <p>Local: Outro local do evento</p>
+                <p>Local: ***************</p>
             </div>
         </section>
         <section id="contato" class="content">
             <h2>Contato</h2>
-            <p>Entre em contato conosco...</p>
+            <p>Entre em contato conosco pelo telefone 55 ******-*****</p>
             <form>
                 <label for="nome">Nome:</label><br>
                 <input type="text" id="nome" name="nome" required><br>
@@ -112,8 +112,6 @@
             </form>
         </section>
     </div>
-    <footer>
-        <p>&copy; 2024 Agrinho. Todos os direitos reservados.</p>
-    </footer>
+    
 </body>
 </html>
